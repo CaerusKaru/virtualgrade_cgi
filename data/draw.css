@@ -40,10 +40,7 @@
 
 .selectable:hover, .selectable.active {
         stroke: #1F619C;
-}
-
-.selectable>div.insideforeign:hover, .selectable.active>div.insideforeign {
-        color: #1F619C !important;
+        fill: #1F619C;
 }
 
 #fontColor, #drawColor {

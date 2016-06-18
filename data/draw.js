@@ -69,11 +69,43 @@ function init() {
 
     board.style.cursor = "auto";
 
+    if ($('svg text#curScore').length == 0)
+        addTextHeader();
+
     /* * * * * Initialize art values * * * * */
     gesture = false, line = '', brush = 'black', radius = 2.5;
 }
 
-/* TODO: Zoom and pan */
+function addTextHeader()
+{
+    var text = document.createElementNS(svgNS, 'text');
+    text.setAttributeNS(null, 'font-family', font);
+    text.setAttributeNS(null, 'font-size', fontSize+"px");
+    text.setAttributeNS(null, 'fill', fontColor);
+
+    text.setAttributeNS(null, 'dx', "44%");
+    text.setAttributeNS(null, 'dy', "1.8em");
+    text.setAttributeNS(null, 'id', "curScore");
+
+/*
+    var initSpan = document.createElementNS(svgNS, 'tspan');
+    initSpan.setAttributeNS(null, "x", point.x);
+    initSpan.setAttributeNS(null, "dy", "1.2em");
+
+    var spanText = document.createTextNode(initText);
+
+    initSpan.appendChild(spanText);
+    text.appendChild(initSpan);
+*/
+
+    var curText = "Score: x/n, Extra: x/n"; // TODO
+    var textNode = document.createTextNode(curText);
+
+    text.appendChild(textNode);
+
+    $('#Layer_1').append(text);
+    $('#Layer_1').html($('#Layer_1').html());
+}
 
 function text() {
     if (mode == "drag")
@@ -137,6 +169,8 @@ function dragListen() {
 
     var elements = board.children;
     for (var i = 1; i < elements.length; i++) {
+        if ($(elements[i]).attr('id') == "curScore")
+            continue;
         elements[i].addEventListener("touchstart", dragDown, false);
         elements[i].addEventListener("mousedown", dragDown, false);
     }
@@ -149,6 +183,8 @@ function dragUnListen() {
     board.removeEventListener("mousemove", dragMove, false);
     board.removeEventListener("touchmove", dragMove, false);
     for (var i = 1; i < elements.length; i++) {
+        if ($(elements[i]).attr('id') == "curScore")
+            continue;
         elements[i].removeEventListener("mousedown", dragDown, false);
         elements[i].removeEventListener("touchstart", dragDown, false);
     }
@@ -211,7 +247,7 @@ function textListen() {
     }
 */
 
-    $('svg').on('mouseenter','text', function() {
+    $('svg').on('mouseenter','text:not(#curScore)', function() {
         createNode($(this));
     });
     $('svg').click(function (evt) {
@@ -254,8 +290,9 @@ function removeActive()
         return;
     var activeParent = $(activeNode).parent();
     var realText = $('svg text#'+$(activeParent).attr('id'));
-    var x = Number(realText.attr("x") + realText.attr("dragx"));
+    var x = Number(realText.attr("x"));
     var htmlText = $(activeNode).html();
+
     $(realText).html(htmlToSVG(unescape(htmlText), x));
     $(realText).show();
     $(activeParent).remove();
@@ -281,11 +318,7 @@ function htmlToSVG(htmlText, x)
 // TODO: Finish this, and then also account for edge case of only &nbsp; lines (how to account for user-implemented &nbsp;?)
 function SVGToHtml(svgText)
 {
-    console.log(unescape($(svgText).html()));
-
     var htmlText = $(svgText).html().replace(/&lt;tspan[^&gt;]*&gt;/, '').replace(/<tspan[^>]*>/, '').replace(/lt;tspan[^&gt;]*&gt;/g, '<br>').replace(/&lt;\/tspan&gt;/g, '').replace(/<tspan[^>]*>/g, '<br>').replace(/<\/tspan>/g, '');
-
-    console.log(htmlText);
 
     return unescape(htmlText);
 }
@@ -299,6 +332,7 @@ function createTextNode(point, evt)
 
     text.setAttributeNS(null, 'x', point.x);
     text.setAttributeNS(null, 'y', point.y);
+    text.setAttributeNS(null, 'dy', '1.0em');
 
     var id = Date.now();
 
@@ -306,7 +340,7 @@ function createTextNode(point, evt)
 
     var initSpan = document.createElementNS(svgNS, 'tspan');
     initSpan.setAttributeNS(null, "x", point.x);
-    initSpan.setAttributeNS(null, "dy", "1.2em");
+    //initSpan.setAttributeNS(null, "dy", "1.0em");
 
     var spanText = document.createTextNode(initText);
 
@@ -352,7 +386,7 @@ function createNode(node)
     myforeign.style.textAlign = "left";
     myforeign.style.position = "relative";
     myforeign.style.x = Number(dragx+x);
-    myforeign.style.y = Number(dragy+y - fSize.substring(0,fSize.length - 2));
+    myforeign.style.y = Number(dragy+y);
     textdiv.classList.add("insideforeign"); //to make div fit text
 
     //myforeign.setAttributeNS(null, "transform", "translate(" + Number(dragx+x) + " " + Number(dragy+y) + ")");
@@ -385,9 +419,10 @@ function textUnListen() {
 */
     removeActive();
     $('foreignobject').remove();
-    $('svg').off('mouseenter','text');
+    $('svg').off('mouseenter','text:not(#curScore)');
     $('svg').off('click');
     $('div.insideforeign').off('mouseleave');
+    editing = false;
 }
 
 function drawUnListen() {
@@ -473,6 +508,8 @@ function clean(type) {
         paths = board.querySelectorAll('path');
     if (paths.length > min && confirm("Are you sure?") == true) {
         for (i = paths.length - 1; i >= min; i--) {
+            if ($(paths[i]).attr('id') == "curScore")
+                continue;
             board.removeChild(paths[i]);
         }
     }
@@ -492,6 +529,8 @@ function selectListen() {
     board.style.cursor = "default";
     var paths = board.children;
     for (i = paths.length - 1; i >= 1; i--) {
+        if ($(paths[i]).attr('id') == "curScore")
+            continue;
         $(paths[i]).addClass("selectable");
         paths[i].addEventListener("click", clickSelect, false);
     }
@@ -502,6 +541,8 @@ function selectUnListen() {
     $("#Layer_1>.selectable").removeClass("selectable");
     var paths = board.children;
     for (i = paths.length - 1; i >= 1; i--) {
+        if ($(paths[i]).attr('id') == "curScore")
+            continue;
         paths[i].removeEventListener("click", clickSelect);
     }
     document.removeEventListener("keydown", clickRemove);
