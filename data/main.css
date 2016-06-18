@@ -1,0 +1,711 @@
+/*
+ * main.css -- styling for VirtualGrade
+ *
+ */
+
+body {
+        margin: 0;
+        height: 100vh;  
+        width: 100vw;
+}
+
+body.drawing {
+        overflow: hidden;
+}
+
+a:link, a:visited {
+
+
+
+
+}
+
+a:hover {
+
+
+}
+
+h1, h2, h3 {
+        margin: 0px;
+
+
+
+}
+
+
+ul, ol {
+
+
+
+}
+
+img {
+        height: 13;
+        width: 93.5;
+}
+
+table {
+        border-collapse: collapse;
+        margin: 20px 25px;              
+}
+
+tr { 
+        background: #F4EFEA;
+}
+
+tr.altrow { 
+        background: #F7F3E9;        
+}
+
+th, td {
+        text-align: left;                       
+        border-width: 1px;
+        border-style: solid;
+}
+th {
+        color: #273838;
+        background: #E8ECED;/*#9EBCBC;*/
+        padding: .8em 1em;      
+        border-color: #94B3B6 #8AACAF #689195 #8AACAF;  
+}
+td {
+        border-color: #E7DED3;  
+        padding: .7em 1em;      
+}       
+
+/* * * * * * * * NAV BAR * * * * * * * * * */
+
+#nav {
+        text-align: left;
+        position: absolute;
+        left: 0; 
+        top: 5px;
+        bottom: 10px;
+        margin: 0;
+        padding: 0;             
+        width: 100%; 
+        height: 75px; 
+        /* border-top: 1px solid #1A0E06; */
+        border-bottom: 1px solid #1A0E06;
+        font: 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#nav #admin {
+        visibility: hidden;
+}
+
+#nav #grading {
+        visibility: hidden;
+}
+
+#nav ul {
+        text-align: left;
+        list-style: none;        
+}
+
+#nav ul li {
+        display: inline;
+}
+
+
+#nav ul li a {
+        text-decoration: none;
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 10px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+/*
+ * in the nav bar -- darken the current page selection and hover
+ */
+#nav ul li:not(#logo) a:hover, #nav ul li:not(#logo) a:active, #nav .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#nav #namespace {
+        visibility: hidden;
+        position: absolute;
+        font: 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* * * * * * * DYNAMIC CONTENT * * * * * * * */
+
+#data {
+        padding: 75px 0 15px 0;
+        font: 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* * * * * * * COURSES * * * * * * */
+
+#data #content{
+        padding-top: 5px;
+        width: 100%;
+        border-bottom: 1px solid #1A0E06;
+}
+
+#data #content p {
+        font-weight: bold;
+        padding-left: 55px;
+        display: inline;
+}
+
+#data #content ul {
+        display: inline;
+        text-align: left;
+        list-style: none;
+}
+
+#data #content ul li {
+        display: inline;
+}
+
+#data #content ul li a {
+        text-decoration: none;
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #content ul li a:hover, #data #content ul li a:active, #data #content .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * ASSIGNMENTS * * * * * */
+
+#data #pages {
+        width: 100%;
+        border-bottom: 1px solid #1A0E06;
+}
+
+#data #pages p {
+        font-weight: bold;
+        padding-left: 55px;
+        display: inline;
+}
+
+#data #pages ul {
+        display: inline;
+        text-align: left;
+        list-style: none;
+}
+
+#data #pages ul li {
+        display: inline;
+}
+
+#data #pages ul li a {
+        text-decoration: none;
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #pages ul li a:hover, #data #pages ul li a:active, #data #pages .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * * LIST OF STUDENTS * * * * * * * */
+
+#data #students {
+        white-space: nowrap;
+        padding-top: 15px;
+        float: left;
+        border-right: 1px solid #1A0E06;
+}
+
+#data #students p.title {
+        line-height: 10px;
+        margin: 0 10px;
+        text-align: center;
+        font-weight: bold;
+}
+
+#data #students ul {
+        display: block;
+        list-style: none;
+        height: 500px;
+        margin: 0 5px;
+        overflow: auto;
+        padding: 25 0 0 0px;
+}
+
+#data #students li {
+        text-align: center;
+        margin: -25 0px;
+        padding: 0;
+}
+
+#data #students ul li a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 1.5px 7.5px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #students ul li a:hover, #data #students ul li a:active, #data #students .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * * IN PROGRESS STUDENTS * * * * * * * */
+
+#data #inprogress {
+        white-space: nowrap;
+        padding-top: 15px;
+        float: left;
+        border-right: 1px solid #1A0E06;
+}
+
+#data #inprogress p.title {
+        line-height:10px;
+        margin: 0 10px;
+        text-align: center;
+        font-weight: bold;
+}
+
+#data #inprogress ul {
+        display: block;
+        list-style: none;
+        height:500px;
+        margin:0 5px;
+        overflow:auto;
+        padding: 25 0 0 0px;
+}
+
+#data #inprogress li {
+        text-align: center;
+        margin: -25 0px;
+        padding: 0;
+}
+
+#data #inprogress ul li a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 1.5px 7.5px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #inprogress ul li a:hover, #data #inprogress ul li a:active, #data #inprogress .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * * COMPLETED STUDENTS * * * * * * * */
+
+#data #completed {
+        white-space: nowrap;
+        padding-top: 15px;
+        float: left;
+        border-right: 1px solid #1A0E06;
+}
+
+#data #completed p.title {
+        line-height:10px;
+        margin: 0 10px;
+        text-align: center;
+        font-weight: bold;
+}
+
+#data #completed ul {
+        display: block;
+        list-style: none;
+        height:500px;
+        margin:0 5px;
+        overflow:auto;
+        padding: 25 0 0 0px;
+}
+
+#data #completed li {
+        text-align: center;
+        margin: -25 0px;
+        padding: 0;
+}
+
+#data #completed ul li a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 1.5px 7.5px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #completed ul li a:hover, #data #completed ul li a:active, #data #completed .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * * DYNAMIC SCORECARD * * * * * * * */
+
+#panel {
+        padding: 75px 0 15px 0;
+        font: 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        white-space: nowrap;
+        overflow: auto;
+        height: 500px;
+        padding: 0 10px;
+}
+
+#panel #save {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#panel #save:hover, #panel #save:active {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#panel .header {
+        margin: 0px;
+        border-bottom: 1px solid #1A0E06;
+}
+
+#panel p {
+        padding: 0;
+        margin: 0;
+}
+
+#panel p:not(.comment) {
+        font-weight: normal;
+}
+
+#panel p.comment {
+        font-size: 85%;
+        font-style: italic;
+        font-weight: lighter;
+        margin: -20 0 0 0px;
+}
+
+#panel p span {
+        font-weight: lighter;
+}
+
+#panel p span.input {
+        padding-left: 10px;
+        float: right;
+}
+
+#panel p input.input {
+        width: 25px;
+}
+
+#panel p.title {
+        padding: 0px;
+        margin: -17.5 0px;
+        line-height:10px;
+        text-align: left;
+        font-weight: bold;
+}
+
+#panel p.title a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3 3px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+        margin: 0 5px;
+}
+
+
+#panel p.title a:hover, #panel p.title a:active {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#panel #comments {
+        resize: none;
+        width: 100%;
+        height: 100px;
+}
+
+#panel p input[type=number]::-webkit-inner-spin-button, 
+#panel p input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* * * * * * * ROC SCORECARD * * * * * * */
+
+#roc {
+        font: 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 15 10 0 10px;
+        /*float: left;*/
+        white-space: nowrap;
+        padding: 0 10px;
+}
+
+#roc .header {
+        margin: 0px;
+        border-bottom: 1px solid #1A0E06;
+}
+
+#roc p {
+        padding: 0;
+        margin: 0;
+}
+
+#roc p:not(.comment) {
+        font-weight: normal;
+}
+
+#roc p.comment {
+        font-style: italic;
+        font-weight: lighter;
+        margin: -25 0 0 0px;
+}
+
+#roc p span {
+        font-weight: lighter;
+}
+
+#roc p span.input {
+        padding-left: 10px;
+        float: right;
+}
+
+#roc p input.input {
+        width: 25px;
+}
+
+#roc p.title {
+        padding: 0px;
+        margin: -17.5 0px;
+        line-height:10px;
+        text-align: left;
+        font-weight: bold;
+}
+
+#roc p.title a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3 3px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+        margin: 0 5px;
+}
+
+
+#roc p.title a:hover, #roc p.title a:active {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#roc #comments {
+        resize: none;
+        width: 100%;
+        height: 100px;
+}
+
+#roc p input.input::-webkit-outer-spin-button,
+#roc p input.input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* * * * * * * ADMIN PAGE * * * * * * */
+
+#data #admin {
+        border-bottom: 1px solid #1A0E06;
+}
+
+#data #admin ul {       
+        margin: 0px;
+}
+
+#data #admin li {
+        display: inline;
+        text-align: center;
+        margin: -25 0px;
+        padding: 0 25px;
+        width: 100%;
+        word-break: break-word;
+}
+
+#data #admin ul li a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 1.5px 7.5px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #admin ul li a:hover, #data #admin ul li a:active, #data #admin .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * * * * * ADMIN MENUS * * * * * * * * * * */
+
+#data #menu {
+        padding: 10 0 0 40px;
+}
+
+#data #menu p {
+        display: inline;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#data #menu .input_name {
+        padding-left: 70px;
+}
+
+#data #menu ul {  
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;     
+        display: inline;
+        margin: 0px;
+}
+
+#data #menu li {
+        float: left;
+        display: inline-block;
+        margin: -25 0px;
+        padding: 0 25px;
+        width: 100%;
+        word-break: break-word;
+}
+
+#data #menu ul li a {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 1.5px 7.5px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #menu ul li a:hover, #data #menu ul li a:active, #data #menu .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#data #menu #create {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #menu #create:hover, #data #menu #create:active {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+#data #menu #createForm {
+        display: inline;
+}
+
+#data #menu #createForm ul {
+        display: inline;
+        text-align: left;
+        list-style: none;
+}
+
+#data #menu #createForm ul li {
+        float: none;
+        display: inline;
+        padding: 0px;
+}
+
+#data #menu #createForm ul li a {
+        text-decoration: none;
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #menu #createForm ul li a:hover, #data #menu #createForm ul li a:active, #data #menu #createForm .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+
+/* * * * * * * PDF Interface * * * * * * */
+
+#data #pdfpages {
+        width: 100%;
+        border-bottom: 1px solid #1A0E06;
+}
+
+#data #pdfpages p {
+        font-weight: bold;
+        padding-left: 55px;
+        display: inline;
+}
+
+#data #pdfpages ul {
+        display: inline;
+        text-align: left;
+        list-style: none;
+}
+
+#data #pdfpages ul li {
+        padding-left: 55px;        
+}
+
+#data #pdfpages ul li a {
+        text-decoration: none;
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #1F619C;
+        font: bold 14px/45px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        /* text-transform: uppercase;  */
+}
+
+#data #pdfpages ul li a:hover, #data #pdfpages ul li a:active, #data #pdfpages .active a {
+        border: none;
+        background: #1F619C;    
+        color: #fff;
+}
+

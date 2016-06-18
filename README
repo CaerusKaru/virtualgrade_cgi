@@ -1,0 +1,35 @@
+VirtualGrade (2.0) by A. Plumer, 6-18-2016
+==
+
+This is the initial commit of an upgraded version for C. Gregg's Virtual Grade
+online course grading system (originally pilfered from UVA as the legend goes).
+
+Features so far (will be documented in depth at a later date):
+* Dynamic grader/admin privileges based on Linux group membership
+* Signin using LDAP
+* Two supported grading formats: scorecard and pdf
+* Scorecard version is a legacy system designed by B. Molay, originally
+  implemented using Perl and shell scripts
+* PDF version is the offshoot of the original VirtualGrade, with some
+  notable enhancements
+* Namely: all elements drawn on the PDF are editable later (add/remove/update)
+* Ability to publish assignments selectively, with or without comments
+
+To Do:
+* Allow portal to assign graders to an assignment on an ad-hoc basis
+* Enhance scorecard option to make it easier to leave feedback
+* Add score to PDF download on a per-page basis
+* Add grader statistics
+* Add admin statistics (view grader productivity and course status)
+* Add ability to provision assignments, and delete them
+
+Description of technologies:
+* The front-end, which is currently a mess, is mostly powered by HTML5, CSS3,
+  and jQuery. The end-goal is to convert all of it to AngularJS so that template
+  generation is handled exclusively on the front-end (currently handled on back-end)
+* Server-side is almost exclusively Python scripts (with the help of some shell
+  commands to interact with the file directory)
+* While students may submit PDF documents, they are ultimately converted to SVG 1.1
+  to allow for easy and dynamic editing by graders. SVG 2.0 would've been preferred
+  but it's not ready yet. The SVG is then converted back to PDF when the grading is
+  done (thankfully conversion is pretty cheap on the Tufts CS servers)

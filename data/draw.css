@@ -1,0 +1,90 @@
+#console {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #CDCDCD;
+        overflow: hidden;
+}
+
+#board {
+        float: left;
+        margin: 0;
+        height: 100vh;
+        background: white;
+}
+
+#cursor, div.dot {
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        background: black;
+        position: absolute;
+        opacity: 1.0;
+        pointer-events: none;
+        overflow: hidden;
+}
+
+#console:not(#board) {
+        overflow: hidden;
+        display: inline-block;
+}
+
+#panel {
+        padding-top: 15px;
+        padding-left: 15px;
+        line-height: 35px;
+        display: inline-block;
+        height: 100vh;
+}
+
+.selectable:hover, .selectable.active {
+        stroke: #1F619C;
+}
+
+.selectable>div.insideforeign:hover, .selectable.active>div.insideforeign {
+        color: #1F619C !important;
+}
+
+#fontColor, #drawColor {
+        display: none;
+}
+
+#artOptions {
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+}
+
+#changeOptions {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+}
+
+#scoring {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+}
+
+
+#searchOptions {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+}
+
+#saveOptions {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+}
+
+.rightWrap { 
+        float: right;
+        padding-left: 10px;
+}
+
+#studentSearch {
+        margin-top: 5px;
+}

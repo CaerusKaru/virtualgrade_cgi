@@ -1,0 +1,124 @@
+banana"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-51781d07kyFv93drW%d" "-f/tmp/magick-51781D0DhyfeznLqI" "-f/tmp/magick-51781tpK5jxz9Jzqu"
+/tmp/magick-51781d07kyFv93drW1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 63KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 63KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1477 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-QoeZhRDD-%08d" "-f/tmp/magick-pTy78p93" "-f/tmp/magick-XOvJm5Eu"
+/tmp/magick-QoeZhRDD-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.060u 0:00.050
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 90.7MB 38.650u 0:37.859
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-orMXhw2l-%08d" "-f/tmp/magick-Rj4L8m0k" "-f/tmp/magick-RCADckYj"
+/tmp/magick-orMXhw2l-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.040u 0:00.050
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 92.14MB 38.260u 0:37.460
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-lK1nVFjn-%08d" "-f/tmp/magick-it2ZqK3e" "-f/tmp/magick-ZeTbKVN6"
+/tmp/magick-lK1nVFjn-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.040u 0:00.039
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 92.14MB 38.320u 0:37.539
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-Xgv7FhUp-%08d" "-f/tmp/magick-cShk5OMt" "-f/tmp/magick-ZMAdRsFx"
+/tmp/magick-Xgv7FhUp-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.060u 0:00.049
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 92.14MB 38.390u 0:37.579
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-tfgshxw0-%08d" "-f/tmp/magick-oos627GX" "-f/tmp/magick-VlGcCPRU"
+/tmp/magick-tfgshxw0-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.060u 0:00.040
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 92.14MB 38.360u 0:37.550
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-ErWfo0Km-%08d" "-f/tmp/magick-nkFu3iv9" "-f/tmp/magick-fWlY2HfW"
+/tmp/magick-ErWfo0Km-00000001 PNG 1275x1650 1275x1650+0+0 8-bit DirectClass 66.2KB 0.050u 0:00.050
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit DirectClass 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit DirectClass 92.14MB 38.270u 0:37.470
+Version: ImageMagick 6.7.2-7 2016-05-05 Q16 http://www.imagemagick.org
+Copyright: Copyright (C) 1999-2011 ImageMagick Studio LLC
+Features: OpenMP    
+
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-42056UezQRMp9qB1Z%d" "-f/tmp/magick-420560ucPdcDXXBpg" "-f/tmp/magick-42056D3dIzHCOUjPw"
+/tmp/magick-42056UezQRMp9qB1Z1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 66.2KB 0.000u 0:00.000
+/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/p1.pdf PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-42545pzv7Kfmx9PXU%d" "-f/tmp/magick-42545SKRBRhIqaAcU" "-f/tmp/magick-425452lSlDMHmEMrT"
+/tmp/magick-42545pzv7Kfmx9PXU1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 66.2KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 66.2KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p1.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.1.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-42796iLy8RKKr40xy%d" "-f/tmp/magick-42796Hez8kXGWo4V3" "-f/tmp/magick-42796HivNzO90ixkz"
+/tmp/magick-42796iLy8RKKr40xy1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 101KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p2.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 101KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p2.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.2.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+convert: unable to open image `/g/00/2016s/grading/hw4/cgregg.1/p3.pdf': No such file or directory @ error/blob.c/OpenBlob/2702.
+convert: no images defined `/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.3.svg' @ error/convert.c/ConvertImageCommand/3241.
+convert: unable to open image `/g/00/2016s/grading/hw4/nr.1/p3.pdf': No such file or directory @ error/blob.c/OpenBlob/2702.
+convert: no images defined `/h/aplume01/public_html/portal/cgi-bin/../grades/nr/00.hw4.3.svg' @ error/convert.c/ConvertImageCommand/3241.
+convert: unable to open image `/g/00/2016s/grading/hw4/cgregg.1/p3.pdf': No such file or directory @ error/blob.c/OpenBlob/2702.
+convert: no images defined `/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.3.svg' @ error/convert.c/ConvertImageCommand/3241.
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-43736GbViIMexwwPJ%d" "-f/tmp/magick-43736-_1k6rGkK5qr" "-f/tmp/magick-43736lqaqC56kO928"
+/tmp/magick-43736GbViIMexwwPJ1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p4.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p4.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.4.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-43899wmTqo8zGnhNZ%d" "-f/tmp/magick-43899jBqSs7m6W13m" "-f/tmp/magick-43899I5_MnvMlQclK"
+/tmp/magick-43899wmTqo8zGnhNZ1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 118KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p4.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 118KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p4.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.4.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 131KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-545487AOcexqCyKSs%d" "-f/tmp/magick-545486veT-yA3Nfc0" "-f/tmp/magick-5454831UDuOh7QoAx"
+/tmp/magick-545487AOcexqCyKSs1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 69.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p3.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 69.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p3.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.3.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-55880wyqe296iagy8%d" "-f/tmp/magick-55880Tu5cp-ONxyVK" "-f/tmp/magick-55880I-T_Tz8ydKjn"
+/tmp/magick-55880wyqe296iagy81 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.5KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p5.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.5KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p5.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.5.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-561272H0DjWeLmbp3%d" "-f/tmp/magick-56127O3brKFTKSsEf" "-f/tmp/magick-56127PmTBkV6eJ9Tr"
+/tmp/magick-561272H0DjWeLmbp31 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p5.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p5.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.5.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-62348Z8lZ95UAcsTh%d" "-f/tmp/magick-62348DPMoFVbrnEwL" "-f/tmp/magick-62348F0DSV9Cnlbdf"
+/tmp/magick-62348Z8lZ95UAcsTh1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 72.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p6.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 72.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p6.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.6.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-8890_RL0I3WXlF86%d" "-f/tmp/magick-8890U6XkO3vr6i0E" "-f/tmp/magick-8890CXEkDlSE60Sc"
+/tmp/magick-8890_RL0I3WXlF861 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 41.3KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p2.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 41.3KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p2.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.2.svg PDF 1275x1650=>975x1476 1275x1650+150+85 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-14351kRMH0kWDQq3b%d" "-f/tmp/magick-14351CM1Q4JAmv1bm" "-f/tmp/magick-14351AW8_JSu8snmw"
+/tmp/magick-14351kRMH0kWDQq3b1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 66.2KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 66.2KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p1.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.1.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000
+convert: unable to open image `/g/00/2016s/grading/hw4/cgregg.1/p3.pdf': No such file or directory @ error/blob.c/OpenBlob/2702.
+convert: no images defined `/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.3.svg' @ error/convert.c/ConvertImageCommand/3241.
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-14638vn0tz_hqKRsL%d" "-f/tmp/magick-14638P0rq6Hv6Bw5g" "-f/tmp/magick-146385TybG0tltzIM"
+/tmp/magick-14638vn0tz_hqKRsL1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 69.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p3.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 69.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p3.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.3.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-17217ZuEGOG4MaEqP%d" "-f/tmp/magick-17217OX-EYgC4VQii" "-f/tmp/magick-17217z5RE1nC9L9bL"
+/tmp/magick-17217ZuEGOG4MaEqP1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p5.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p5.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.5.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-17320AafkCy1DvDQK%d" "-f/tmp/magick-17320BWdkE8zZxMoP" "-f/tmp/magick-173209mqSe4iHXkXT"
+/tmp/magick-17320AafkCy1DvDQK1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 71.8KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p1.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 71.8KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p1.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.1.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-18069FWRpvUfSLsDG%d" "-f/tmp/magick-18069ga4YrKb46dJI" "-f/tmp/magick-18069BgLbslnLpaUK"
+/tmp/magick-18069FWRpvUfSLsDG1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 101KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p2.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 101KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p2.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.2.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-18227OYAKB7HcZMXu%d" "-f/tmp/magick-182272v_J6VJ0wrYy" "-f/tmp/magick-18227Yl0mlul8vwZC"
+/tmp/magick-18227OYAKB7HcZMXu1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 118KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p4.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 118KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p4.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.4.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 131KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-18811PaFzCYniBgrv%d" "-f/tmp/magick-18811Qj4CcbSh1DOu" "-f/tmp/magick-18811RfcieL0V8lcu"
+/tmp/magick-18811PaFzCYniBgrv1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.5KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p5.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.5KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p5.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.5.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-19722o9qwYWf4gW0I%d" "-f/tmp/magick-197224ok7QtSRMy0R" "-f/tmp/magick-19722mHL-k8MtLT00"
+/tmp/magick-19722o9qwYWf4gW0I1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 92.8KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p3.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 92.8KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/cgregg.1/p3.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/cgregg/00.hw4.3.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-32800ngTm3MLRGGyd%d" "-f/tmp/magick-32800WSqF7tLNwuq7" "-f/tmp/magick-328002vjGJ6GNTqk1"
+/tmp/magick-32800ngTm3MLRGGyd1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 41.3KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p2.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 41.3KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p2.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.2.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-28904QTRpkvqocd9Y%d" "-f/tmp/magick-289043hzoxVPJvZtN" "-f/tmp/magick-28904EE6SQKRAeaSB"
+/tmp/magick-28904QTRpkvqocd9Y1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p4.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 55.1KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p4.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.4.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 0.000u 0:00.000
+"gs" -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 "-sDEVICE=pngalpha" -dTextAlphaBits=4 -dGraphicsAlphaBits=4 "-r150x150"  "-sOutputFile=/tmp/magick-29009xUPTaPbrmz0M%d" "-f/tmp/magick-29009O7ro4FZkGNBY" "-f/tmp/magick-29009C15vjRI5Fpda"
+/tmp/magick-29009xUPTaPbrmz0M1 PNG 1275x1650 1275x1650+0+0 8-bit sRGB 72.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p6.pdf PDF 1275x1650 1275x1650+0+0 16-bit sRGB 72.9KB 0.000u 0:00.000
+/g/00/2016s/grading/hw4/aplume01.1/p6.pdf=>/h/aplume01/public_html/portal/cgi-bin/../grades/aplume01/00.hw4.6.svg PDF 1275x1650 1275x1650+0+0 16-bit sRGB 65.5KB 0.000u 0:00.000

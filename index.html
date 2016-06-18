@@ -1,0 +1,34 @@
+<!DOCTYPE HTML5>
+
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="data/main.css" />
+        <link rel="stylesheet" type="text/css" href="data/publish.css" />
+        <link rel="stylesheet" type="text/css" href="data/draw.css" />       
+        <title>Portal</title>
+        <script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="data/login.js"></script>
+        <script type="text/javascript" src="data/scorecard.js"></script>
+        <script type="text/javascript" src="data/grade.js"></script>
+        <script type="text/javascript" src="data/grading.js"></script>
+        <script type="text/javascript" src="data/admin.js"></script>
+        <script type="text/javascript" src="data/draw.js"></script>
+</head>
+
+<body onload="login()">
+        <div id="nav">
+                <ul>
+                        <li id="logo"><a href="."><img src="data/logo.png" alt="logo" /></a></li>
+                        <li id="grades"><a href="#">Grades</a></li>
+                        <li id="grading"><a href="#">Grading</a></li>
+                        <li id="admin"><a href="#">Admin</a></li>
+                        <li id="namespace">Logged in as: <span id="name"></span></li>
+                </ul>
+        </div>
+        
+        <div id="data"></div>
+</body>
+
+</html>

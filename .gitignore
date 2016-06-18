@@ -1,0 +1,13 @@
+*~
+*.svg
+*.pdf
+*.score
+*.gradedby
+*.lock
+*.hw*
+venv/
+grades/
+assignments/
+.htaccess
+#*#
+cgi-bin/old

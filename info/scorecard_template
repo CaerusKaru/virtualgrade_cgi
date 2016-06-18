@@ -1,0 +1,27 @@
+# syntax for template:
+
+# Notation | Purpose
+#    *        Header for section (e.g. 'Content' or 'Modularity')
+#    ?        Specific component (e.g. 'under 80 lines')
+#   [n]       Total points for a component (default is one)
+#   {n}       Extra credit points for a component (not part of total score)
+#    #        Comment for underneath a component
+
+# Notes: total score does not need to be included, it will be
+#        calculated on the fly. Also, blankspaces between
+#        sections are fine and will be ignored (see below)
+
+
+* Interface
+? Includes get_name and set_name [1]
+? Includes get_place and set_place [1]
+? Did not modify public interface [5]
+? Includes at least one private function [1]
+# Does not have to be substantial
+
+* Content
+? Lines under 80 characters [1]
+? Functions under 30 lines [1]
+? Has functions [10]
+? Super clear [1]
+? Extra credit {3}
